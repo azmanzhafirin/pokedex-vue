@@ -1,4 +1,6 @@
-# pokedex-vue2
+# pokedex-vue
+
+Live Site > https://azmanzhafirin.github.io/pokedex-vue/
 
 ## Project setup
 ```
