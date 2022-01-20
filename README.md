@@ -2,6 +2,14 @@
 
 Live Site > https://azmanzhafirin.github.io/pokedex-vue/
 
+This project is created for VueJS training assessment.
+
+<h1>Tools Used</h1>
+<ul>
+  <li><a href="https://github.com/PokeAPI/pokeapi">The PokeAPI</a> for the Pokemon data.</li>
+  <li><a href="https://bootstrap-vue.org/">Bootstrap-Vue</a> for the CSS library.</li>
+</ul>
+
 ## Project setup
 ```
 npm install
@@ -11,16 +19,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
