@@ -4,10 +4,10 @@ import Home from './pages/Home.vue'
 import Favourite from './pages/Favorite.vue'
 
 export const routes = [
-    { path: '/pokedex-vue', redirect: '/pokedex-vue/pokemon' },
-    { path: '/pokedex-vue/pokemon', component: Home },
-    { path: '/pokedex-vue/pokemon/:Pid', component: PokemonDetail },
-    { path: '/pokedex-vue/favourite', component: Favourite },
-    { path: '/pokedex-vue/:notFound(.*)', redirect: '/pokedex-vue/pokemon' },
+    { path: '/', redirect: '/pokemon' },
+    { path: '/pokemon', component: Home },
+    { path: '/pokemon/:Pid', component: PokemonDetail },
+    { path: '/favourite', component: Favourite },
+    { path: '/:notFound(.*)', redirect: '/pokemon' },
 
 ];
