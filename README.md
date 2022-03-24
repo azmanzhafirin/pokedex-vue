@@ -1,6 +1,6 @@
 # pokedex-vue
 
-Live Site > https://azmanzhafirin.github.io/pokedex-vue/
+Live Site > https://pokedexvuestorage.z23.web.core.windows.net/pokemon
 
 This project is created for VueJS training assessment.
 
