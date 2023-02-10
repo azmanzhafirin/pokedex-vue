@@ -78,7 +78,7 @@ export default {
           this.pokemon.name = data.name;
           this.pokemon.types = data.types;
           this.pokemon.imageUrl =
-            "https://cdn.traction.one/pokedex/pokemon/" +
+            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" +
             this.pokemonId +
             ".png";
           this.pokemon.hp = data.stats[0].base_stat;

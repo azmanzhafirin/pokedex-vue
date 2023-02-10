@@ -32,7 +32,7 @@ export default {
   methods: {
     getImageUrl(imageId) {
       //const { width, height } = this.mainProps;
-      return `https://cdn.traction.one/pokedex/pokemon/${imageId}.png`;
+      return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${imageId}.png`;
     },
   },
   mounted() {

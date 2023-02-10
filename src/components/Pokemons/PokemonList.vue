@@ -17,7 +17,7 @@
             <img
               id="pokemon-image"
               :src="
-                'https://cdn.traction.one/pokedex/pokemon/' +
+                'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' +
                 data.item.id +
                 '.png'
               "

@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <ul>
+      <ul id="navbar">
         <li>
           <router-link active-class="active" to="/pokemon">Pokemon</router-link>
         </li>
@@ -16,7 +16,7 @@
 </template>
 
 <style scoped>
-header {
+/* header {
   width: 100%;
   height: 5rem;
   background-color: #ffcc00;
@@ -68,5 +68,34 @@ nav li.router-link-active,
 nav li.router-link-exact-active {
   background-color: blue;
   cursor: pointer;
+} */
+#navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #ef5350;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 2px solid #ef5350;
+}
+
+#navbar li {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Pokemon Solid";
+  margin: 0 10px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+#navbar a:hover {
+  background-color: #d32b2b;
+  color: #f0e0b0;
 }
 </style>

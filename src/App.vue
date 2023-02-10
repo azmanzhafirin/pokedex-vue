@@ -18,6 +18,7 @@ export default {
 @import "./shared/colours";
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~bootstrap-vue/dist/bootstrap-vue.css";
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
 
 #app {
   font-family: Helvetica, Arial, sans-serif;
