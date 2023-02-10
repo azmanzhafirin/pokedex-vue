@@ -2,7 +2,7 @@
 
 Live Site > https://pokedexvuestorage.z23.web.core.windows.net/pokemon
 
-This project is created for VueJS training assessment.
+This project is created using VueJS, Bootstap & PokeAPI .
 
 <h1>Tools Used</h1>
 <ul>
