@@ -1,8 +1,9 @@
 # pokedex-vue
 
-Live Site > https://pokedexvuestorage.z23.web.core.windows.net/pokemon
-
+Live Site > <a target="_blank" href="https://azmanzhafirin.github.io/pokedex-vue/">HERE</a>
+<p>
 This project is created using VueJS, Bootstap & PokeAPI .
+</p>
 
 <h1>Tools Used</h1>
 <ul>
